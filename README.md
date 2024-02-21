@@ -1,16 +1,37 @@
-# push_noti_android
+# Firebase Messaging Push Notifications with Firebase
 
-A new Flutter project.
+This repository demonstrates how to implement Firebase Messaging Push Notifications in a Flutter application for Android. It's a straightforward guide to get you started with push notifications using Firebase CM.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- A Firebase project.
+- Flutter installed on your development machine.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Setup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/SalamiTech/push_noti_android.git
+   ```
+2. **Install dependencies:**
+   ```sh
+   flutter pub get
+   ```
+3. **Configure Firebase:**
+   - Place your `google-services.json` in `android/app`.
+
+4. **Run the app:**
+   ```sh
+   flutter run
+   ```
+
+## Features
+
+- Integration with Firebase Cloud Messaging for real-time push notifications.
+- Handling notifications in foreground, background, and terminated states.
+
+## Contributing
+
+Feel free to fork the repo and submit pull requests with any enhancements or fixes.
