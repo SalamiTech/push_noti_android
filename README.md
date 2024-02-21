@@ -1,4 +1,4 @@
-# Flutter Push Notifications with Firebase Messaging
+# Flutter Push Notifications with Firebase Cloud Messaging
 
 This repository demonstrates how to implement Flutter Push Notifications Messaging in a Flutter application for Android. It's a straightforward guide to get you started with push notifications using Firebase CM.
 
